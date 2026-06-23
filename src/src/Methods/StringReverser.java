@@ -9,7 +9,6 @@ public class StringReverser {
         String s = input.next();
         String ters = reverseString(s);
         System.out.println("Daxil etdiyiniz sözün tərsi: " + ters);
-
     }
     public static String reverseString(String s) {
         String netice = "";
@@ -17,6 +16,5 @@ public class StringReverser {
             netice = netice + s.charAt(i);
         }
         return netice;
-
     }
 }
